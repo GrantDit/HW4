@@ -111,11 +111,11 @@ public class Main {
 
         //Задача 7
         int weight = 7000;
-        System.out.println("нужно сбросить " + weight + " кг");
+        System.out.println("нужно сбросить " + weight + " грамм");
         int weigh1 = 250;
         System.out.println("будет терять по " + weigh1 + " грамм" );
         int weigh2 = 500;
-        System.out.println("будет терять по " + weigh2 + " кг");
+        System.out.println("будет терять по " + weigh2 + " грамм");
         float try1 = (float) weight / weigh1;
         System.out.println("в первом случае сбросит за " + try1 + " дней");
         float try2 = (float) weight / weigh2;
