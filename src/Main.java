@@ -124,29 +124,23 @@ public class Main {
         System.out.println("среднее количество дней потребуется " + day + " дней");
 
         //Задача 8
-        int Masha = 67760;
+        float Masha = 67760;
         System.out.println("получает Маша " + Masha + " рублей");
-        int Denis = 83690;
+        float Denis = 83690;
         System.out.println("Получает Денис " + Denis + " рублей");
-        int Kristina = 76230;
+        float Kristina = 76230;
         System.out.println("получает Криситна " + Kristina + " рублей");
-        float cash1 = (float) Masha * 10 / 100;
-        System.out.println("10 процентов от ЗП Маши " + cash1 + " рублей");
-        float cash2 = (float)Denis * 10 /100;
-        System.out.println("10 процетов от ЗП Дениса " + cash2 + " рублей");
-        float cash3 = (float) Kristina * 10/100;
-        System.out.println("10 процентов от ЗП Кристины " + cash3 + " рублей");
-        float Masha1 = Masha + cash1;
+        float Masha1 = (float) (Masha * 1.1);
         System.out.println("ЗП после прибавки "+ Masha1 + " рублей");
-        float Denis1 = Denis + cash2;
+        float Denis1 = (float) (Denis * 1.1);
         System.out.println("ЗП после прибавки " + Denis1 + " рублей");
-        float Kristina1 = Kristina + cash3;
+        float Kristina1 = (float) (Kristina * 1.1);
         System.out.println("ЗП после прибавки " + Kristina1 + "рублей");
-        int Cash1 = Masha * 12;
+        float Cash1 = Masha * 12;
         System.out.println("получает Маша в год " + Cash1 + " рублей");
-        int Cash2 = Denis * 12;
+        float Cash2 = Denis * 12;
         System.out.println("Получает Денис в год " + Cash2 + " рублей");
-        int Cash3 = Kristina * 12;
+        float Cash3 = Kristina * 12;
         System.out.println("получает Кристина в год " + Cash3 + " рублей" );
         float Cash4 = Masha1 * 12;
         System.out.println("получает Маша в год после прибавки " + Cash4 + " рублей");
@@ -154,15 +148,17 @@ public class Main {
         System.out.println("получает Денис в год после прибавки " + Cash5 + " рублей");
         float Cash6 = Kristina1 * 12;
         System.out.println("получает Кристина в год после прибавки " + Cash6 + " рублей");
-        float A = Masha1 - Masha;
+        float A = Cash4 - Cash1;
         System.out.println("разница между годовым доходом Маши " + A + " рублей");
-        float B = Denis1 - Denis;
+        float B = Cash5 - Cash2 ;
         System.out.println("разница между годовым доходом Дениса " + B + " рублей");
-        float C = Kristina1 - Kristina;
+        float C = Cash6 - Cash3;
         System.out.println("разница между годовым доходом Кристины " + C + " рублей");
         System.out.println("Маша теперь получает " + Masha1 + " рублей " + " Годовой доход вырос на " + A + " рублей");
         System.out.println("Денис тепереь получает " + Denis1 + " рублей " + " Годовой доход вырос на " + B + " рублей");
         System.out.println("Кристина теперь получает " + Kristina1 + " рублей" + " Годовой доход вырос на " + C + " рублей");
+
+
 
     }
 }
