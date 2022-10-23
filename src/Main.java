@@ -120,7 +120,7 @@ public class Main {
         System.out.println("в первом случае сбросит за " + try1 + " дней");
         float try2 = weight / weigh2;
         System.out.println("во втором случае сбросит за " + try2 + " дней");
-        float day = (weigh1 + weigh2) / 2;
+        float day = (try1 + try2) / 2;
         System.out.println("среднее количество дней потребуется " + day + " дней");
 
         //Задача 8
