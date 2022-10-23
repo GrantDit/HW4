@@ -130,11 +130,11 @@ public class Main {
         System.out.println("Получает Денис " + Denis + " рублей");
         float Kristina = 76230;
         System.out.println("получает Криситна " + Kristina + " рублей");
-        float Masha1 = (float) (Masha * 1.1);
+        float Masha1 = Masha * 1.1f;
         System.out.println("ЗП после прибавки "+ Masha1 + " рублей");
-        float Denis1 = (float) (Denis * 1.1);
+        float Denis1 = Denis * 1.1f;
         System.out.println("ЗП после прибавки " + Denis1 + " рублей");
-        float Kristina1 = (float) (Kristina * 1.1);
+        float Kristina1 = Kristina * 1.1f;
         System.out.println("ЗП после прибавки " + Kristina1 + "рублей");
         float Cash1 = Masha * 12;
         System.out.println("получает Маша в год " + Cash1 + " рублей");
@@ -157,8 +157,6 @@ public class Main {
         System.out.println("Маша теперь получает " + Masha1 + " рублей " + " Годовой доход вырос на " + A + " рублей");
         System.out.println("Денис тепереь получает " + Denis1 + " рублей " + " Годовой доход вырос на " + B + " рублей");
         System.out.println("Кристина теперь получает " + Kristina1 + " рублей" + " Годовой доход вырос на " + C + " рублей");
-
-
 
     }
 }
