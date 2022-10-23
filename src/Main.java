@@ -116,9 +116,9 @@ public class Main {
         System.out.println("будет терять по " + weigh1 + " грамм" );
         int weigh2 = 500;
         System.out.println("будет терять по " + weigh2 + " кг");
-        float try1 = weight / weigh1;
+        float try1 = (float) weight / weigh1;
         System.out.println("в первом случае сбросит за " + try1 + " дней");
-        float try2 = weight / weigh2;
+        float try2 = (float) weight / weigh2;
         System.out.println("во втором случае сбросит за " + try2 + " дней");
         float day = (try1 + try2) / 2;
         System.out.println("среднее количество дней потребуется " + day + " дней");
@@ -130,11 +130,11 @@ public class Main {
         System.out.println("Получает Денис " + Denis + " рублей");
         int Kristina = 76230;
         System.out.println("получает Криситна " + Kristina + " рублей");
-        float cash1 = Masha * 10 / 100;
+        float cash1 = (float) Masha * 10 / 100;
         System.out.println("10 процентов от ЗП Маши " + cash1 + " рублей");
-        float cash2 = Denis * 10/100;
+        float cash2 = (float)Denis * 10 /100;
         System.out.println("10 процетов от ЗП Дениса " + cash2 + " рублей");
-        float cash3 = Kristina * 10/100;
+        float cash3 = (float) Kristina * 10/100;
         System.out.println("10 процентов от ЗП Кристины " + cash3 + " рублей");
         float Masha1 = Masha + cash1;
         System.out.println("ЗП после прибавки "+ Masha1 + " рублей");
